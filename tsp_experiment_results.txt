@@ -1,0 +1,43 @@
+EXPERIMENT #1: default strategy, using path_cheapest_arc
+Objective: 6998
+Route:
+ Przemysl -> Uzhhorod -> Mukacheve -> Ivano-Frankivsk -> Chernivtsi ->
+ Kamianets-Podilskyi -> Khmelnytskyi -> Vinnytsia -> Uman -> Kropyvnytskyi ->
+ Kherson -> Yevpatoriia -> Sevastopol -> Simferopol -> Melitopol -> Berdiansk ->
+ Mariupol -> Donetsk -> Makiivka -> Horlivka -> Khrustalnyi -> Dovzhansk ->
+ Luhansk -> Alchevsk -> Lysychansk -> Sievierodonetsk -> Kramatorsk ->
+ Sloviansk -> Kharkiv -> Poltava -> Kremenchuk -> Kamianske -> Dnipro ->
+ Pavlohrad -> Zaporizhzhia -> Nikopol -> Kryvyi Rih -> Mykolaiv -> Odesa ->
+ Cherkasy -> Sumy -> Konotop -> Chernihiv -> Brovary -> Kyiv -> Bila Tserkva ->
+ Zhytomyr -> Rivne -> Lutsk -> Ternopil -> Lviv -> Drohobych -> Przemysl
+
+EXPERIMENT #2: using Clarke & Wright Savings algorithm
+Objective: 6575
+Route:
+ Przemysl -> Drohobych -> Lviv -> Ternopil -> Lutsk -> Rivne -> Zhytomyr ->
+ Bila Tserkva -> Kyiv -> Brovary -> Chernihiv -> Konotop -> Sumy -> Kharkiv ->
+ Poltava -> Kamianske -> Zaporizhzhia -> Dnipro -> Pavlohrad -> Kramatorsk ->
+ Sloviansk -> Sievierodonetsk -> Lysychansk -> Alchevsk -> Luhansk ->
+ Dovzhansk -> Khrustalnyi -> Horlivka -> Makiivka -> Donetsk -> Mariupol ->
+ Berdiansk -> Melitopol -> Simferopol -> Sevastopol -> Yevpatoriia -> Kherson ->
+ Nikopol -> Kryvyi Rih -> Kremenchuk -> Cherkasy -> Kropyvnytskyi -> Mykolaiv ->
+ Odesa -> Uman -> Vinnytsia -> Khmelnytskyi -> Kamianets-Podilskyi ->
+ Chernivtsi -> Ivano-Frankivsk -> Mukacheve -> Uzhhorod -> Przemysl
+
+
+EXPERIMENT #3: using local search insertion
+Objective: 6746
+Route:
+ Przemysl -> Drohobych -> Lviv -> Ternopil -> Lutsk -> Rivne -> Zhytomyr ->
+ Bila Tserkva -> Kyiv -> Chernihiv -> Brovary -> Cherkasy -> Kremenchuk ->
+ Kamianske -> Zaporizhzhia -> Dnipro -> Pavlohrad -> Poltava -> Konotop ->
+ Sumy -> Kharkiv -> Sloviansk -> Kramatorsk -> Sievierodonetsk -> Lysychansk ->
+ Alchevsk -> Luhansk -> Dovzhansk -> Khrustalnyi -> Horlivka -> Makiivka ->
+ Donetsk -> Mariupol -> Berdiansk -> Melitopol -> Simferopol -> Sevastopol ->
+ Yevpatoriia -> Kherson -> Nikopol -> Kryvyi Rih -> Kropyvnytskyi -> Mykolaiv ->
+ Odesa -> Uman -> Vinnytsia -> Khmelnytskyi -> Kamianets-Podilskyi ->
+ Chernivtsi -> Ivano-Frankivsk -> Mukacheve -> Uzhhorod -> Przemysl
+
+
+EXPERIMENT #4: using all unperformed algorithm which makes all nodes inactive.
+No solution
