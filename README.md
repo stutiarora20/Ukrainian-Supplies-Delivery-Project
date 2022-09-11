@@ -26,10 +26,10 @@ Kyiv -> Brovary -> Chernihiv -> Konotop -> Sumy -> Kharkiv -> Poltava -> Kremenc
 Kyiv is highlighted with the orange star pin.
 
 # Areas for Improvement
-Potential changes I’m thinking of include:  
-- having the start node be somewhere in a surrounding city from a different country instead of Kyiv  
-- see if we can get google maps to tell us the driving distance between nodes (use google maps API)
-- explore the effect of having multiple cars?
+Potential changes to include:  
+- have the start node be somewhere in a surrounding city from a different country instead of Kyiv  
+- explore the effect of having multiple cars
+- be able to update with real-time war-zone data
 
 # Resources
 - [Google OR Tools](https://developers.google.com/optimization/routing/tsp#python_14) authored the codebase I modified for this problem
