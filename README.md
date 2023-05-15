@@ -1,5 +1,5 @@
 # Ukranian TSP Project
-Part of an "Intro to AI" final project that calculates the shortest route possible through Ukraine's 50 largest cities. 
+Project started as a part of an Artificial Intelligence course. Uses TSP to calculate the shortest route possible through Ukraine's 50 largest cities using Google Maps API data!
 
 # How to use
 
